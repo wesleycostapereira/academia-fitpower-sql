@@ -1,0 +1,14 @@
+
+USE academia_fitpower;
+
+-- 1. Atualizar telefone do aluno Lucas
+UPDATE Aluno SET telefone = '11911112222'
+WHERE nome = 'Lucas Andrade';
+
+-- 2. Atualizar valor do plano básico
+UPDATE Plano SET valor = 89.90
+WHERE nome = 'Básico';
+
+-- 3. Atualizar especialidade de instrutor
+UPDATE Instrutor SET especialidade = 'Musculação Avançada'
+WHERE nome = 'Carlos Alberto';
